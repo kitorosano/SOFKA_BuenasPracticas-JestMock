@@ -22,6 +22,6 @@ test("calls math.multiply", () => {
 });
 
 test("calls math.divide", () => {
-  app.doDivide(6, 2);
-  expect(math.divide).toHaveBeenCalledWith(6, 2);
+  app.doDivide(2, 6);
+  expect(math.divide).toHaveBeenCalledWith(2, 6);
 });
